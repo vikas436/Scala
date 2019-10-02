@@ -1,0 +1,13 @@
+package OOPs
+
+object SingletonObject {
+  def method(): Unit = {
+    println("Hello, This is Singleton Object ")
+  }
+}
+
+object Singleton {
+  def main(args: Array[String]): Unit = {
+    SingletonObject.method()
+  }
+}
