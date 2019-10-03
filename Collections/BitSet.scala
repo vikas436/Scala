@@ -12,5 +12,7 @@ object BitSetObject {
     bitSet.foreach(bit => print(bit + " "))
     println()
     println(bitSet.size)
+    bitSet += 20
+    println(bitSet.size)
   }
 }
